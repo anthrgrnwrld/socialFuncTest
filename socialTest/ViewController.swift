@@ -54,6 +54,7 @@ class ViewController: UIViewController {
 
     @IBAction func pressTwitter(sender: AnyObject) {
         
+        //Tweet用のViewを作成する
         let twitterPostView:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)!
         
         let tweetDescription1:String = "hogehoge"
@@ -74,7 +75,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressFacebook(sender: AnyObject) {
-        
+
+        //Facebookシェア用のViewを作成する
         let facebookPostView:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)!
         
         let facebookDescription1:String = "hogehoge"
