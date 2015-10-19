@@ -14,6 +14,7 @@
 		3679A5641BD4514200C3FE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3679A5621BD4514200C3FE18 /* LaunchScreen.storyboard */; };
 		3679A56F1BD4514200C3FE18 /* socialTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679A56E1BD4514200C3FE18 /* socialTestTests.swift */; };
 		3679A57A1BD4514200C3FE18 /* socialTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679A5791BD4514200C3FE18 /* socialTestUITests.swift */; };
+		3679A5C21BD5A65900C3FE18 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3679A5C11BD5A65900C3FE18 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3679A5751BD4514200C3FE18 /* socialTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socialTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3679A5791BD4514200C3FE18 /* socialTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialTestUITests.swift; sourceTree = "<group>"; };
 		3679A57B1BD4514200C3FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3679A5C11BD5A65900C3FE18 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3679A5C21BD5A65900C3FE18 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		3679A54D1BD4514200C3FE18 = {
 			isa = PBXGroup;
 			children = (
+				3679A5C11BD5A65900C3FE18 /* Social.framework */,
 				3679A5581BD4514200C3FE18 /* socialTest */,
 				3679A56D1BD4514200C3FE18 /* socialTestTests */,
 				3679A5781BD4514200C3FE18 /* socialTestUITests */,
@@ -481,6 +485,7 @@
 				3679A5801BD4514200C3FE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3679A5811BD4514200C3FE18 /* Build configuration list for PBXNativeTarget "socialTestTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				3679A5831BD4514200C3FE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3679A5841BD4514200C3FE18 /* Build configuration list for PBXNativeTarget "socialTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				3679A5861BD4514200C3FE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
